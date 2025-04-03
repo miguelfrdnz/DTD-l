@@ -1,0 +1,40 @@
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libro+)>
+<!ELEMENT libro (titulo, editorial, autor, paginas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT autor (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+]>
+<biblioteca>
+    <libro>
+        <titulo> Harry Potter Y La Cámara de los Secretos</titulo>
+        <editorial>Planeta</editorial>
+        <autor>
+            <nombre>Joanne</nombre>
+            <apellidos>Rowling</apellidos>
+        </autor>
+        <paginas>361</paginas>
+    </libro>
+    <libro> 
+        <titulo> El misterio de los árbitros dormidos
+</titulo>
+        <editorial>Ediciones SM</editorial>
+        <autor>
+            <nombre>Roberto</nombre>
+            <apellidos>Santiago</apellidos>
+        </autor>
+        <paginas>125</paginas>
+    </libro>
+    <libro> 
+        <titulo> El Reino de la Fantasía
+</titulo>
+        <editorial>DESTINO</editorial>
+        <autor>
+            <nombre>Elisabetta</nombre>
+            <apellidos>Dami</apellidos>
+        </autor>
+        <paginas>384</paginas>
+    </libro>
