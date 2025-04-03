@@ -1,0 +1,40 @@
+x <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "liga.dtd">
+<liga>
+    <jugador>
+        <nombre>Manuel</nombre>
+        <apellidos>Fernández</apellidos>
+        <equipo>
+            <ciudad>Sevilla</ciudad>
+            <presidente>
+                <nombrePresidente>Carlos</nombrePresidente>
+                <apellidosPresidente>Ruiz</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>27</edad>
+    </jugador>
+    <jugador>
+        <nombre>Javier</nombre>
+        <apellidos>Pérez</apellidos>
+        <equipo>
+            <ciudad>Valencia</ciudad>
+            <presidente>
+                <nombrePresidente>Antonio</nombrePresidente>
+                <apellidosPresidente>Gómez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>30</edad>
+    </jugador>
+    <jugador>
+        <nombre>Diego</nombre>
+        <apellidos>Martínez</apellidos>
+        <equipo>
+            <ciudad>Bilbao</ciudad>
+            <presidente>
+                <nombrePresidente>Fernando</nombrePresidente>
+                <apellidosPresidente>Lopez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>25</edad>
+    </jugador>
+</liga>
